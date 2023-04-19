@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MauiApp1.Exam.Model;
+
+namespace MauiApp1.viewmodel
+{
+    
+
+    public class viewModel
+
+
+    {
+        public List<string> HistoryList { get; set; }
+
+        public void AddResult(string value)
+        {
+
+            // Create a new result object and add it to the list
+            CalculationHistory.HistoryList.Add(value);
+        }
+
+
+    }
+}

@@ -1,0 +1,4 @@
+    public static class CalculationHistory
+    {
+        public static List<string> HistoryList { get; set; } = new List<string>();
+    }
